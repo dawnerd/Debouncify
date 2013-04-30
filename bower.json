@@ -1,0 +1,10 @@
+{
+  "name": "Debouncify",
+  "version": "1.0.1",
+  "main": "debounce.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
