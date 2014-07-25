@@ -1,0 +1,22 @@
+{
+  "name": "debouncify",
+  "version": "0.0.0",
+  "description": "A very simple debounce method",
+  "main": "debounce.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dawnerd/Debouncify.git"
+  },
+  "keywords": [
+    "debounce"
+  ],
+  "author": "Troy Whiteley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dawnerd/Debouncify/issues"
+  },
+  "homepage": "https://github.com/dawnerd/Debouncify"
+}

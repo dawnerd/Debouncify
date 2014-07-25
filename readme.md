@@ -1,11 +1,24 @@
-(c)2012 Troy Whiteley
-http://troywhiteley.com
+# Debouncify
+Debounces your javascript (duh).
 
-Debounces your javascript events.
+####Installation:
+```bash
+npm install debouncify --save
+```
+\- or -
 
-Usage:
+```bash
+bower install Debouncify --save
+```
+
+####Example:
+```javascript
 	window.onscroll = function(event) {
     		console.log(event);
 	}.chunk(2000, 10)
+```
 
-First parameter is timeout in ms. Second parameter is how many events to chunk together.
+###Usage
+```
+.chunk(timeout, <batch size>)
+```
